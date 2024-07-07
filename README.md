@@ -27,8 +27,9 @@ It is a Collection of Multiple projects which are based on mainy JavaScript. The
 ## Setup
 To run this project locally, follow these steps:
 
-1. **Clone the repository:**
-you can use this repository by using below step.
+**Clone the repository:**
+1. Clone this repository by using below step.
    ```bash
    
    git clone https://github.com/Ysb321/mini-projects.git
+2. Then simply run index.html
