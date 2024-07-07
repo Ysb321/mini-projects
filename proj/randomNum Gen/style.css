@@ -1,0 +1,48 @@
+
+:root:has(#theme [value="☀️"]:checked) {
+	color-scheme: light;
+	--base: #cfcfcf;
+	--text: #212121;
+}
+
+:root:has(#theme [value="🌑"]:checked) {
+	color-scheme: dark;
+	--base: #212121;
+	--text: #cfcfcf;
+	--grayBox: #343635;
+}
+
+.selector {
+	text-align: end;
+	padding: 10px;
+}
+
+
+.container{
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20rem 8rem;
+
+}
+
+.label1{
+    font-size: 60px;
+    
+}
+
+button{
+    padding: 40px;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: all  1s;
+}
+
+button:hover{
+    border-color: blue;
+    box-shadow: 2px 2px 2px blue;
+}

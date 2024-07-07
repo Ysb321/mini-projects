@@ -1,0 +1,42 @@
+.b1 {
+  background-color: rgb(5, 255, 255);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.b2 {
+  background-color: rgb(99, 40, 40);
+  color: aliceblue;
+  border: 2px solid black; /* solid, dotted, can be use */
+  border-radius: 10px;
+  padding: 15px 20px;
+  text-transform: uppercase; /* all text will be upperscale*/
+  margin-right: 10px; /* Add space between two buttons.*/
+}
+
+.b3 {
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.carth1 {
+  color: rgb(59, 52, 47);
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+body {
+  background-image: url("image.jpg");
+  background-size: cover;
+}

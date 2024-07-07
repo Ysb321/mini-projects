@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+html {
+	color-scheme: dark light;
+}
+
+:root:has(#theme [value="☀️"]:checked) {
+	color-scheme: light;
+	--base: #cfcfcf;
+	--text: #212121;
+}
+
+:root:has(#theme [value="🌑"]:checked) {
+	color-scheme: dark;
+	--base: #212121;
+	--text: #cfcfcf;
+	--grayBox: #343635;
+}
+
+.selector {
+	text-align: end;
+	padding: 10px;
+}
+
+
+#container{
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    margin: 10px;
+}
+
+#myButton{
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+    font-size: 1.3rem;
+    background-color: hsla(180, 100%, 50%, 0.866);
+    color: white;
+    border-radius: 10px;
+}
+
+#myButton:active{
+     background-color: hsl(180, 84%, 34%);
+}
+
+#myInput{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width:60px;
+}
+#myInput:focus-visible{
+    border: 2px solid aqua;
+    outline: 0;
+    /* background-color: red; */
+}
+
+label{
+    font-size:1.3rem
+}
+
+#textResult{
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+#imgResult{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    margin-inline: auto;
+    width:80%;
+}

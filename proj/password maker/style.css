@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+:root:has(#theme [value="☀️"]:checked) {
+	color-scheme: light;
+	--base: #cfcfcf;
+	--text: #212121;
+}
+
+:root:has(#theme [value="🌑"]:checked) {
+	color-scheme: dark;
+	--base: #212121;
+	--text: #cfcfcf;
+	--grayBox: #343635;
+}
+
+.selector {
+	text-align: end;
+	padding: 10px;
+}
+
+
+.passDiv{
+   text-align: center;
+   margin: 10rem auto;
+}
+
+.passDiv > *{
+    margin-bottom: 1rem;
+}
+label{
+    display: inline-block;
+    margin-bottom: 80px;
+    font-size: 2rem;
+}
+
+input{
+    width: min(60%, 20rem) ;
+    height: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    outline: 2px solid aqua;
+    border-radius: 2rem;
+    border: 0;
+    padding: 20px;
+}
+
+input:focus{
+    border: 2px solid aqua;
+}
+
+button{
+    height: 2rem;
+    width: min(60%,10rem);
+    background-color: aqua;
+    border-radius: 2rem;
+    border: 0;
+    color: #000;
+    font-weight: 600;
+}
+
+button:active{
+    background-color: hsl(180, 81%, 39%);
+    border: 1px solid #000;
+}
+
+p{
+    display: block;
+    font-size: 2rem;
+    word-wrap: break-word;
+}

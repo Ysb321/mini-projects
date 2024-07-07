@@ -1,0 +1,51 @@
+html{
+    color-scheme: dark light;
+}
+
+:root:has(#theme [value="☀️"]:checked) {
+  color-scheme: light;
+  --base: #cfcfcf;
+  --text: #212121;
+}
+
+:root:has(#theme [value="🌑"]:checked) {
+  color-scheme: dark;
+  --base: #212121;
+  --text: #cfcfcf;
+}
+
+.selector {
+	text-align: end;
+	padding: 10px;
+}
+
+.container{
+  margin: 20rem auto;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BtnContainer{
+   text-align: center;
+}
+
+button{
+   background-color: aqua;
+   border: 0;
+   border-radius: 10px;
+   padding: 10px;   
+   cursor: pointer;
+   transition: background-color .24s;
+   color: black;
+  font-size: larger;
+}
+
+button:hover{
+    background-color: rgb(6, 125, 125); 
+    color: aliceblue;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Number Guessing Game</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="selector">
+			<<label
+              >Theme:
+              <select data-theme-picker name="themepicker" id="theme">
+                <option value="☀️">Light</option>
+                <option value="🌑">Dark</option>
+              </select>
+            </label>>
+		</div>
+		<div id="container">
+		<h1>Number Guessing Game:-</h1>
+		<!-- <label for="myInput" class="myLabel"></label><br /> -->
+		<div id="containt"><span id="span1">Set a Minium Number:- <input class="minNum" type="number" max="20" min="1" style="text-align: center;"></input></span><br>
+		<span >Set a Maximum Number:- <input class="maxNum" type="number" max="20" min="1" style="text-align: center;"></input></span><br>
+		</div>
+		<button id="setn">Set</button><br>
+		<h3 id="myH2"></h3><br>
+		
+		<input
+			type="number"
+			class="myInput"
+			placeholder="Enter a Number"
+		/><br />
+		<button id="submit">Submit</button>
+		
+		<h2 id="myH3"></h2>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
+
+
