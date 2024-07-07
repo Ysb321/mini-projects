@@ -1,6 +1,6 @@
 # Mini Projects
 
-![Portfolio Site Preview](preview.png)
+![Portfolio Site Preview]
 
 ## Table of Contents
 - [Introduction](#introduction)
