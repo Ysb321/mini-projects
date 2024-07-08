@@ -5,10 +5,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 It is a Collection of Multiple projects which are based on mainy JavaScript. They are small but Imformative.
