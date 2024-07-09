@@ -11,9 +11,9 @@ It is a Collection of Multiple projects which are based on mainy JavaScript. The
 
 ## Features
 - Responsive design for optimal viewing across various devices.
-- Projects section with detailed project descriptions and links.
-- Skills section highlighting technical skills and competencies.
-- Contact form for inquiries and feedback.
+- Colllection of various javaScript projects and mini games. 
+- Two themes such as Dark & Light theme.
+- small projecys but important.
 
 ## Technologies Used
 - **HTML**: Markup language used for structuring the content.
